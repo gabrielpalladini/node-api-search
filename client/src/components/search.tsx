@@ -6,15 +6,21 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export interface IFilterBoxProps {
-  data: string[];
-  specialities?: string[];
+export interface IDatabase {
+  name: string;
+  city: string;
+  specialities: string;
+  distance: string;
+}
+
+export interface IDatabaseProps  {
+  data: IDatabase[];
 }
 
 const CheckboxGroup = Checkbox.Group;
 const defaultCheckedList = ['Excavation', 'Plumbing', 'Electrical'];
 
-export const SearchBar: FC<IFilterBoxProps> = ({
+export const SearchBar: FC<IDatabaseProps> = ({
   data,
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -28,17 +34,13 @@ export const SearchBar: FC<IFilterBoxProps> = ({
     setSearchTerm(event.target.value);
   };
 
-  useEffect(() => {
-    console.log('checkAll', checkAll, 'checkedList', checkedList);
-  }, [checkAll, checkedList]);
-
   const onChange = list => {
     setCheckedList(list);
     setCheckAll(list.length === checkBoxValue.length);
   };
 
   useEffect(() => {
-    const filteredSpeciality = data?.map(e => e.specialities);
+    const filteredSpeciality = data?.map(e => e.specialities)
 
     const fetchedData = async () => {
       try {
