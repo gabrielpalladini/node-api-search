@@ -1,0 +1,88 @@
+{
+  "companies": [
+    {
+      "name": "First Company",
+      "city": "Berlin",
+      "specialities": "Excavation",
+      "distance": "5.2 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=First+Company"
+    },
+    {
+      "name": "Second Company",
+      "city": "Dortmund",
+      "specialities": "Plumbing",
+      "distance": "491 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Second+Company"
+    },
+    {
+      "name": "Third Company",
+      "city": "Hamburg",
+      "specialities": "Electrical",
+      "distance": "287 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Third+Company"
+    },
+    {
+      "name": "Fourth Company",
+      "city": "Dortmund",
+      "specialities": "Electrical",
+      "distance": "487 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Fourth+Company"
+    },
+    {
+      "name": "Fifth Company",
+      "city": "Munich",
+      "specialities": "Excavation",
+      "distance": "592 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Fifth+Company"
+    },
+    {
+      "name": "Sixth Company",
+      "city": "Berlin",
+      "specialities": "Electrical",
+      "distance": "1.2 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Sixth+Company"
+    },
+    {
+      "name": "Seventh Company",
+      "city": "Dortmund",
+      "specialities": "Plumbing",
+      "distance": "495 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Seventh+Company"
+    },
+    {
+      "name": "Eighth Company",
+      "city": "Munich",
+      "specialities": "Excavation",
+      "distance": "544 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Eighth+Company"
+    },
+    {
+      "name": "Ninth Company",
+      "city": "Frankfurt",
+      "specialities": "Plumbing",
+      "distance": "476 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Ninth+Company"
+    },
+    {
+      "name": "Tenth Company",
+      "city": "Frankfurt",
+      "specialities": "Electrical",
+      "distance": "545 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Tenth+Company"
+    },
+    {
+      "name": "Eleventh Company",
+      "city": "Berlin",
+      "specialities": "Excavation",
+      "distance": "2.9 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Eleventh+Company"
+    },
+    {
+      "name": "Twelfth Company",
+      "city": "Munich",
+      "specialities": "Plumbing",
+      "distance": "584 km distance",
+      "image": "https://dummyimage.com/100x100/2544a1/030303&text=Twelfth+Company"
+    }
+  ]
+}

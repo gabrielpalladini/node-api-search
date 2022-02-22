@@ -1,0 +1,22 @@
+{
+  "name": "app-gabriel-copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpalladini/node-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielpalladini/node-search/issues"
+  },
+  "homepage": "https://github.com/gabrielpalladini/node-search#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
