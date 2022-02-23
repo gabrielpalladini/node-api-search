@@ -66,7 +66,6 @@ export const SearchBar: FC<IDatabaseProps> = ({
     const results = searchResults?.filter(e => e.name.toLowerCase().includes(searchTerm.toLowerCase()));
     setSearchResults(results);
 
-    console.log('results are', searchResults, 'filtered are', filtered);
   }, [searchTerm]);
 
   useEffect(() => {
@@ -120,7 +119,6 @@ export const SearchBar: FC<IDatabaseProps> = ({
 const PartnerBox = styled.div`
   display: flex;
   border: 1px groove gray;
-
   height: 110px;
   padding: 20px;
   border-radius: 2px;
@@ -152,6 +150,7 @@ const CompanyName = styled.div`
   font-weight: 700;
   color: rgb(74 98 183);
 `;
+
 const Specialities = styled.div`
   border: 1px groove darkgray;
   background-color: gray;
